@@ -4,12 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#07110f">
-<title>صدقة جارية | بسملة أحمد مجدي ريان</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="صدقة">
+<title>صدقة</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700;800&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700;800&display=swap"></noscript>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{background:#06100d;color:#f2eee3;font-family:Tajawal,Arial,sans-serif;line-height:1.8;overflow-x:hidden}.container{width:min(1160px,92%);margin:auto}.ambient{position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 15% 5%,rgba(202,174,99,.09),transparent 32%),radial-gradient(circle at 90% 55%,rgba(53,125,101,.07),transparent 30%);z-index:-2}.grain{position:fixed;inset:0;opacity:.018;pointer-events:none;z-index:100;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}.topbar{position:sticky;top:0;z-index:30;background:rgba(6,16,13,.72);backdrop-filter:blur(22px);border-bottom:1px solid rgba(210,183,109,.1)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.logo{display:flex;align-items:center;gap:9px;color:#dfcb91;text-decoration:none;font:700 24px Aref Ruqaa}.logo span{font-size:29px}.logo small{display:block;font:400 9px Tajawal;color:#727b75;letter-spacing:1px;margin-top:-7px}.desktop-nav{display:flex;gap:28px}.desktop-nav a{color:#8e9791;text-decoration:none;font-size:12px;transition:.25s}.desktop-nav a:hover{color:#dbc680}.round-btn{display:none;background:#0e1915;border:1px solid #2a3931;color:#d7c27f;border-radius:50%;width:40px;height:40px}.mobile-menu{display:none}.hero{min-height:710px;display:grid;grid-template-columns:1.05fr .95fr;gap:80px;align-items:center;padding:90px 0}.eyebrow{font-size:11px;color:#cdb66e;letter-spacing:2px}.dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#cdb66e;box-shadow:0 0 12px #cdb66e;margin-left:8px}.hero h1{font:700 74px/1.08 Aref Ruqaa;margin:18px 0}.hero h1 em{font-style:normal;color:#d8c17b}.hero-lead{max-width:620px;color:#929d96;font-size:16px}.hero-actions{display:flex;gap:12px;margin:28px 0}.btn,.mini{font-family:inherit;cursor:pointer;border-radius:13px}.btn{padding:13px 23px;border:0;font-weight:800}.btn b{margin-right:7px}.gold{background:linear-gradient(135deg,#dcc37a,#a8874d);color:#11140f;box-shadow:0 12px 40px rgba(205,181,107,.1)}.glass,.mini{background:#0c1713;border:1px solid #2a3931;color:#e8e1d4;padding:12px 18px}.mini{font-size:12px}.trust-row{display:flex;gap:20px;color:#6e7872;font-size:12px}.hero-visual{height:500px;border:1px solid rgba(211,183,108,.2);border-radius:38px;background:radial-gradient(circle at 50% 35%,rgba(211,183,108,.13),transparent 37%),linear-gradient(145deg,#101d18,#08110e);display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative;overflow:hidden}.halo{position:absolute;width:310px;height:310px;border-radius:50%;border:1px solid rgba(211,183,108,.12);box-shadow:0 0 90px rgba(211,183,108,.06)}.crescent{font-size:125px;color:#d8c276;z-index:1;text-shadow:0 0 55px rgba(216,194,118,.2)}.arabic{font:400 31px Aref Ruqaa;z-index:1}.hero-visual small{color:#747d77;font-size:10px}.stars{color:#806f45;margin-top:30px;letter-spacing:4px}.floating{position:absolute;background:rgba(9,20,16,.82);border:1px solid rgba(211,183,108,.18);border-radius:20px;padding:7px 12px;font-size:11px;color:#b8b1a2;animation:float 4s ease-in-out infinite}.f1{top:80px;right:40px}.f2{bottom:80px;left:40px;animation-delay:1s}@keyframes float{50%{transform:translateY(-7px)}}.quick{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:70px}.quick button{background:#0b1612;border:1px solid #203028;color:#fff;border-radius:18px;padding:17px;text-align:right;cursor:pointer;transition:.25s}.quick button:hover{transform:translateY(-4px);border-color:#635534}.quick i{font-style:normal;font-size:23px;float:right;margin-left:13px}.quick b{display:block;font-size:14px}.quick small{color:#68736c;font-size:10px}.quote{border-top:1px solid #18251f;border-bottom:1px solid #18251f;background:#09120f}.quote .container{min-height:125px;display:flex;justify-content:center;align-items:center;gap:22px}.quote span{font:60px Aref Ruqaa;color:#6b5b3a}.quote p{font:22px Aref Ruqaa;color:#c7c0af}.section{padding:105px 0}.heading{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:30px}.heading label{color:#bfa764;font-size:10px;letter-spacing:1.6px}.heading h2{font:700 43px Aref Ruqaa;color:#dac581;margin:2px 0}.heading p{color:#747e77;font-size:12px}.heading .num{color:#5f563e;border:1px solid #393421;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:10px}.quran-panel,.dhikr-panel{background:linear-gradient(145deg,#0c1713,#0a1210);border:1px solid #24332c;border-radius:26px;padding:40px}.panel-top{display:flex;justify-content:space-between;color:#737d77;font-size:11px}.badge{color:#d7c17c;border:1px solid #51462c;border-radius:20px;padding:5px 12px}.ayah{font:400 43px/2 Aref Ruqaa;text-align:center;margin:42px auto 28px;min-height:90px}.progress{height:3px;background:#17241e;border-radius:10px;overflow:hidden}.progress span{display:block;height:100%;width:14%;background:#cdb66e;transition:.4s}.quran-bottom{display:flex;align-items:center;justify-content:space-between;margin-top:22px;gap:10px}.quran-bottom span{color:#66716b;font-size:11px}.quran-bottom div{display:flex;gap:7px}.tabs{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap}.tabs button{background:#0b1612;color:#7d8881;border:1px solid #23332b;padding:9px 17px;border-radius:30px;font:12px Tajawal;cursor:pointer}.tabs button.active{color:#d7c27f;border-color:#6c5a34}.tiny{color:#bba260;font-size:10px}.dhikr-panel-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:26px;gap:14px;flex-wrap:wrap}.dhikr-panel-top h3{font:30px Aref Ruqaa;color:#ddd3bd;margin:5px 0 0}.dhikr-list{display:flex;flex-direction:column}.dhikr-item{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 4px}.dhikr-item-copy p{font:400 19px/1.9 Aref Ruqaa;color:#e3ddcd}.dhikr-item-copy small{display:block;color:#6f7a73;font-size:10px;margin-top:8px}.dcounter{flex:0 0 auto;width:84px;height:84px;border-radius:50%;border:1px solid #705e36;background:radial-gradient(circle at 35% 25%,#18261f,#09110e);display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 0 30px rgba(200,174,98,.06);transition:.15s;font-family:inherit}.dcounter:active{transform:scale(.92)}.dcounter strong{font-size:21px;color:#ddc783;line-height:1.1}.dcounter span{font-size:9px;color:#69736d}.dcounter.done{border-color:#cdb66e;box-shadow:0 0 30px rgba(205,181,107,.18)}.dhikr-sep{display:flex;align-items:center;gap:12px;padding:14px 10px;margin:0 4px;border-top:1px dashed #22322a;border-bottom:1px dashed #22322a}.dhikr-sep span{font-size:14px;flex:0 0 auto}.dhikr-sep p{color:#a99a68;font-size:11.5px;font-style:normal}.dua-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.dua-card{background:#0c1713;border:1px solid #24332c;border-radius:21px;padding:27px;position:relative;transition:.3s}.dua-card:hover{transform:translateY(-5px);border-color:#5e5133}.dua-card>span{font-size:22px}.dua-card p{font:19px/1.9 Aref Ruqaa;color:#d8d2c5;margin:17px 0 25px}.heart{position:absolute;left:17px;top:17px;background:none;border:0;color:#c8b06c;font-size:25px;cursor:pointer}.pray{background:none;border:0;border-top:1px solid #24332c;padding-top:12px;width:100%;text-align:right;color:#cdb66e;font:700 12px Tajawal;cursor:pointer}.good-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.good{background:#0c1713;border:1px solid #24332c;border-radius:19px;padding:24px;transition:.3s}.good:hover{transform:translateY(-5px);border-color:#5e5133}.good span{font-size:27px}.good h3{font-size:16px;margin:7px 0}.good p{color:#737e77;font-size:12px;margin-bottom:13px}.good button{background:#0a120f;color:#cdb66e;border:1px solid #403823;border-radius:10px;padding:9px 13px;font:700 11px Tajawal;cursor:pointer}.warning{margin-top:18px;text-align:center;color:#59655e;font-size:10px}.impact{margin-bottom:105px;padding:48px 55px;background:linear-gradient(135deg,#111e18,#0b1410);border:1px solid #29372f;border-radius:27px;display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.impact label{color:#bfa764;font-size:10px}.impact h2{font:38px Aref Ruqaa;color:#d8c27e}.impact p{color:#727d76;font-size:12px}.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.stats div{background:#09120f;border:1px solid #202e27;border-radius:15px;padding:18px;text-align:center}.stats b{display:block;color:#dbc681;font-size:27px}.stats span{font-size:10px;color:#6b766f}.wall{padding:0 0 105px}.wall-form{display:flex;gap:10px;margin-bottom:18px}.wall-form textarea{flex:1;background:#0b1511;border:1px solid #26362e;border-radius:13px;min-height:62px;padding:13px;color:#eee;font:13px Tajawal;resize:vertical}.wall-list{display:flex;flex-wrap:wrap;gap:9px}.wall-pill{background:#0b1612;border:1px solid #25352d;color:#bbb6aa;border-radius:25px;padding:8px 13px;font-size:11px}.closing{padding-bottom:100px}.closing-card{text-align:center;padding:65px 20px;border:1px solid #393421;border-radius:30px;background:radial-gradient(circle at 50% 0,rgba(207,180,106,.09),transparent 48%),#0c1511}.seal{font-size:35px;color:#cdb66e}.closing h2{font:42px Aref Ruqaa;color:#d9c47f}.closing p{color:#77827b;font-size:13px;margin:7px 0 24px}footer{border-top:1px solid #18251f;padding:45px 0 65px;text-align:center;color:#657169;font-size:11px}footer strong{font:700 21px Aref Ruqaa;color:#cdb66e}footer p{margin:7px 0}footer small{font-size:9px}#toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);background:#d4bd75;color:#11140f;border-radius:30px;padding:10px 19px;font-size:11px;font-weight:800;opacity:0;pointer-events:none;transition:.3s;z-index:200;white-space:nowrap}.show{opacity:1!important;transform:translate(-50%,0)!important}.reveal{animation:rise .8s both}@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
 .sr{opacity:0;transform:translateY(22px);transition:opacity .7s cubic-bezier(.2,.7,.3,1),transform .7s cubic-bezier(.2,.7,.3,1);transition-delay:var(--sr-delay,0ms)}
@@ -56,6 +62,7 @@
     <div class="hero-actions">
       <a class="btn gold" href="#quran">ابدأ بالقرآن <b>←</b></a>
       <button class="btn glass" id="shareTop">شارك الصفحة <b>↗</b></button>
+      <button class="btn glass" id="installBtn" style="display:none">ثبّت الموقع <b>📲</b></button>
     </div>
     <div class="trust-row"><span>📖 قرآن</span><span>🤲 دعاء</span><span>🌿 خير</span><span>🕊️ ذكر</span></div>
   </div>
@@ -282,10 +289,87 @@ function share(){
 }
 document.getElementById('shareTop').onclick=share;document.getElementById('shareBottom').onclick=share;
 
+/* -- حائط الدعاء (متصل بقاعدة بيانات Supabase) -- */
+const SUPABASE_URL='https://egcekaqhnwzajgrwycwf.supabase.co';
+const SUPABASE_ANON_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVnY2VrYXFobnd6YWpncnd5Y3dmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc5NDY5OTYsImV4cCI6MjEwMzUyMjk5Nn0.ofqMUgY-tTLgurCl10iVYn1TdcbuvqBDUt-5OqUUPsA';
+const sb=window.supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY);
+
 const wall=document.getElementById('wallList');
-document.getElementById('addDua').onclick=()=>{const input=document.getElementById('duaInput'),v=input.value.trim();if(!v){showToast('اكتب دعاءً أولًا 🤲');return}const el=document.createElement('span');el.className='wall-pill';el.textContent='🤲 '+v;wall.prepend(el);input.value='';showToast('تم نشر دعائك 🤍');state.dua++;stat('statDua',state.dua)};
+function renderWallItem(text){
+  const el=document.createElement('span');
+  el.className='wall-pill';
+  el.textContent='🤲 '+text;
+  return el;
+}
+async function loadWall(){
+  wall.innerHTML='<span class="wall-pill">جارِ تحميل الأدعية...</span>';
+  const{data,error}=await sb.from('wall_duas').select('content').order('created_at',{ascending:false}).limit(60);
+  if(error){wall.innerHTML='<span class="wall-pill">تعذّر تحميل الأدعية، حاول لاحقًا</span>';return}
+  wall.innerHTML='';
+  if(!data.length){wall.dataset.empty='1';wall.innerHTML='<span class="wall-pill">كن أول من يدعو لبسملة 🤍</span>';return}
+  wall.dataset.empty='0';
+  data.forEach(row=>wall.appendChild(renderWallItem(row.content)));
+}
+const addDuaBtn=document.getElementById('addDua');
+addDuaBtn.onclick=async()=>{
+  const input=document.getElementById('duaInput'),v=input.value.trim();
+  if(!v){showToast('اكتب دعاءً أولًا 🤲');return}
+  addDuaBtn.disabled=true;
+  const{error}=await sb.from('wall_duas').insert({content:v});
+  addDuaBtn.disabled=false;
+  if(error){showToast('حدث خطأ، حاول مرة أخرى');return}
+  if(wall.dataset.empty==='1'){wall.innerHTML='';wall.dataset.empty='0'}
+  wall.prepend(renderWallItem(v));
+  input.value='';
+  showToast('تم نشر دعائك 🤍');
+  state.dua++;stat('statDua',state.dua);
+};
+loadWall();
 
 paintQ();paintDh();
+
+/* -- install as app (PWA) -- */
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').catch(()=>{})});
+}
+const installBtn=document.getElementById('installBtn');
+const isStandalone=window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
+const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent)&&!window.MSStream;
+let deferredPrompt=null;
+if(!isStandalone){
+  if(isIOS){
+    installBtn.style.display='inline-flex';
+  }
+  window.addEventListener('beforeinstallprompt',(e)=>{
+    e.preventDefault();
+    deferredPrompt=e;
+    installBtn.style.display='inline-flex';
+  });
+}
+function showInstallModal(html){
+  const overlay=document.createElement('div');
+  overlay.style.cssText='position:fixed;inset:0;background:rgba(3,8,6,.72);z-index:999;display:flex;align-items:center;justify-content:center;padding:24px';
+  overlay.innerHTML=`<div style="background:linear-gradient(145deg,#0c1713,#0a1210);border:1px solid #33452f;border-radius:22px;padding:28px;max-width:360px;text-align:center;color:#e8e1d4;font-family:Tajawal,Arial,sans-serif">${html}<button id="closeInstallModal" style="margin-top:18px;background:linear-gradient(135deg,#dcc37a,#a8874d);color:#11140f;border:0;border-radius:13px;padding:11px 22px;font-weight:800;cursor:pointer">تمام</button></div>`;
+  document.body.appendChild(overlay);
+  document.getElementById('closeInstallModal').onclick=()=>overlay.remove();
+  overlay.onclick=(e)=>{if(e.target===overlay)overlay.remove()};
+}
+installBtn.onclick=async()=>{
+  if(isIOS){
+    showInstallModal('<div style="font-size:15px;line-height:2">لتثبيت الصفحة على شاشتك:<br>1. دوس زرار <b>المشاركة ⬆️</b> تحت في المتصفح<br>2. اختار <b>"Add to Home Screen"</b><br>(إضافة إلى الشاشة الرئيسية)<br>3. دوس <b>"إضافة"</b></div>');
+    return;
+  }
+  if(deferredPrompt){
+    deferredPrompt.prompt();
+    const choice=await deferredPrompt.userChoice;
+    if(choice.outcome==='accepted'){showToast('تم تثبيت الموقع 🤍')}
+    deferredPrompt=null;
+    installBtn.style.display='none';
+  }else{
+    showInstallModal('<div style="font-size:15px;line-height:2">افتح قائمة المتصفح (⋮ أو ⋯) واختار<br><b>"تثبيت التطبيق"</b> أو<br><b>"إضافة إلى الشاشة الرئيسية"</b></div>');
+  }
+};
+window.addEventListener('appinstalled',()=>{installBtn.style.display='none'});
 
 /* -- scroll reveal animation -- */
 const revealTargets=document.querySelectorAll('.section .heading,.quran-panel,.dhikr-panel,.dua-card,.good-grid>article,.quick button,.quote .container,.impact,.wall-form,#wallList,.closing-card');
